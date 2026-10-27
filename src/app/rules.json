@@ -1,0 +1,88 @@
+
+[
+  {
+    "intent": "admission_timing",
+    "keywords": ["when do admissions open", "when will admissions open", "admission opening date", "admission schedule", "admission dates", "when can i apply", "admissions open"],
+    "reply": "According to the University of Sargodha FAQ, regular admissions generally open in August or September. Admissions for Pharmacy, Medical and Allied Health Sciences generally open in October or November. These are usual periods, not a guarantee of the current admission deadline. Check the admission portal for the current session: https://admissions.su.edu.pk/"
+  },
+  {
+    "intent": "admission_apply",
+    "keywords": ["how to apply for admission", "how can i apply", "apply for admission", "admission procedure", "online admission", "admission application", "how do i get admission"],
+    "reply": "To apply to the University of Sargodha:\n1. Open https://admissions.su.edu.pk/\n2. Review the available degree programs and their eligibility requirements.\n3. Complete the online application and follow the portal's instructions.\n4. Pay the required application fee and upload the paid challan as instructed.\n5. Check the admission portal for merit lists and updates.\n\nFollow the current session's instructions because requirements and deadlines can vary."
+  },
+  {
+    "intent": "admission_eligibility",
+    "keywords": ["eligibility criteria", "am i eligible", "minimum marks", "required percentage", "qualification required", "who can apply", "admission requirements"],
+    "reply": "Eligibility depends on the degree program you want to join. Visit https://admissions.su.edu.pk/programs to review program-specific qualifications and merit requirements. Tell me the program name, such as BS Computer Science, BS English, or BS Mathematics, so I can help explain what requirements you need to check."
+  },
+  {
+    "intent": "merit_list",
+    "keywords": ["merit list", "check my merit", "merit position", "admission result", "selected candidates", "selection list"],
+    "reply": "University of Sargodha merit lists are published according to the admission schedule. Check the official merit portal at https://admissions.su.edu.pk/merits. Select your program and relevant merit list to check your status."
+  },
+  {
+    "intent": "multiple_programs",
+    "keywords": ["multiple programs", "more than one program", "apply for two programs", "apply for several programs"],
+    "reply": "Yes. According to the University of Sargodha FAQ, applicants can apply for up to 8 programs of interest. Check the current admission portal for the applicable instructions and program eligibility: https://admissions.su.edu.pk/"
+  },
+  {
+    "intent": "fee_structure",
+    "keywords": ["fee structure", "semester fee", "tuition fee", "university fees", "how much is the fee", "fee per semester", "bs fee", "program fee", "regular program fee", "self support fee"],
+    "reply": "UOS fees depend on your degree program and admission category, such as regular or self-support. You can view the official fee structure here: https://su.edu.pk/home/Prospectus/FeeStructure. Tell me your degree program, semester, and admission category if you need help identifying the relevant fee."
+  },
+  {
+    "intent": "fee_challan",
+    "keywords": ["fee challan", "download challan", "generate challan", "challan not working", "lost challan", "payment challan", "how to pay fee"],
+    "reply": "For a student admission or semester fee challan, follow the instructions in the relevant UOS student portal. For general university fee challans, visit https://www.uos.edu.pk/challan/general. If the challan system gives you trouble, the university's general challan page lists contact number 048-9230811-15, extension 7428."
+  },
+  {
+    "intent": "fee_refund",
+    "keywords": ["fee refund", "refund policy", "get my fee back", "admission fee refund", "cancel admission", "refund my fees"],
+    "reply": "The University of Sargodha FAQ describes these admission fee refund periods for semester/trimester programs: a full refund up to the 7th day after classes commence, a 50% refund from the 8th through 15th day, and no refund from the 16th day onward. Annual-system refund periods differ. Contact the university's fee section to confirm how the policy applies to your case."
+  },
+  {
+    "intent": "scholarship",
+    "keywords": ["scholarship", "financial aid", "financial assistance", "need based scholarship", "merit scholarship", "scholarship application", "fee concession"],
+    "reply": "The University of Sargodha provides scholarship information through its official scholarship page: https://su.edu.pk/scholarships. Check the available schemes, eligibility conditions, required documents, and application deadlines. Eligibility depends on the particular scholarship."
+  },
+  {
+    "intent": "hostel_application",
+    "keywords": ["how to apply for hostel", "hostel application procedure", "hostel admission process", "hostel admission", "hostel application", "hostel allotment", "get a hostel room"],
+    "reply": "According to UOS hostel regulations, a hostel application must be completed and submitted to the admission office with the recommendation of the chairperson of your department. Hostel allotment is based on merit and eligibility, so it is not guaranteed. Read the official rules here: https://www.uos.edu.pk/public/office/hall-council/rules-regulations."
+  },
+  {
+    "intent": "hostel_facilities",
+    "keywords": ["hostel facilities", "boys hostel", "girls hostel", "female hostel", "male hostel", "hostel accommodation", "hostel rooms", "hostel names"],
+    "reply": "The University of Sargodha provides separate hostel facilities for male and female students. The official hostel directory lists facilities including Amna Hall, Ayesha Hall, Fatima Hall, Khadija Hall and Haleema Sadia Hall for female students, and Quaid-e-Azam Hall and Iqbal Hall for male students at the main campus. See https://uos.edu.pk/office/hall-council/hostels for the official directory."
+  },
+  {
+    "intent": "hostel_fee",
+    "keywords": ["hostel fee", "hostel fees", "hostel charges", "hostel rent", "hostel dues", "hostel mess fee", "room charges"],
+    "reply": "Hostel charges can depend on the applicable accommodation and fee schedule. I don't have a verified current hostel fee amount in this chatbot's knowledge base. Contact UOS Hall Council or hostel administration for the current room, mess, and other charges. Official hostel information: https://uos.edu.pk/office/hall-council/hostels."
+  },
+  {
+    "intent": "library_services",
+    "keywords": ["library services", "library card", "borrow books", "issue a book", "return books", "renew a book", "digital library", "online journals", "library membership"],
+    "reply": "The University of Sargodha library provides access to books, journals, online databases and digital resources. For library membership, book borrowing, renewals and account-specific questions, contact the university library. Official student facilities information: https://www.uos.edu.pk/students."
+  },
+  {
+    "intent": "library_timing",
+    "keywords": ["library opening hours", "library closing time", "library opening time", "when does the library open", "when does the library close", "library schedule"],
+    "reply": "Library opening hours may vary by day, semester and holidays. I don't have a verified current library timetable in this chatbot. Please confirm the current hours with the University of Sargodha library before visiting."
+  },
+  {
+    "intent": "university_timing",
+    "keywords": ["university timings", "university opening hours", "university closing time", "office hours", "working hours", "class timings", "class schedule", "when does university open"],
+    "reply": "University office hours and class schedules can differ by department, program and day. Check your department's current timetable or contact the relevant office. This chatbot does not have a verified, university-wide daily timetable."
+  },
+  {
+    "intent": "contact",
+    "keywords": ["university contact", "contact number", "phone number", "helpline", "contact uos", "university address", "email address"],
+    "reply": "The University of Sargodha lists its general contact number as 048 111 867 111. Its address is University Road, Sargodha, Punjab, Pakistan, 40100. For a specific department, use the university's official website: https://www.uos.edu.pk/."
+  },
+  {
+    "intent": "greeting",
+    "keywords": ["hello", "hi", "salam", "assalam o alaikum", "assalamu alaikum", "good morning", "good afternoon"],
+    "reply": "Wa Alaikum Assalam! Welcome to UOS Helpdesk Bot. I can help you with admissions, fee structure, challans, scholarships, hostel applications, library services, and university timings. What would you like to know?"
+  }
+]
