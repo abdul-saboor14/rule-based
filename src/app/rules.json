@@ -1,88 +1,218 @@
 
 [
   {
-    "intent": "admission_timing",
-    "keywords": ["when do admissions open", "when will admissions open", "admission opening date", "admission schedule", "admission dates", "when can i apply", "admissions open"],
-    "reply": "According to the University of Sargodha FAQ, regular admissions generally open in August or September. Admissions for Pharmacy, Medical and Allied Health Sciences generally open in October or November. These are usual periods, not a guarantee of the current admission deadline. Check the admission portal for the current session: https://admissions.su.edu.pk/"
+    "intent": "university_intro",
+    "keywords": ["what is university of sargodha", "tell me about uos", "about the university", "what is uos"],
+    "reply": "The University of Sargodha (UOS) is a public-sector university located in Sargodha, Punjab, Pakistan. It offers undergraduate, postgraduate and research education across a range of disciplines. The university provides teaching facilities, laboratories, a central library, student hostels, sports facilities and academic support services."
   },
   {
-    "intent": "admission_apply",
-    "keywords": ["how to apply for admission", "how can i apply", "apply for admission", "admission procedure", "online admission", "admission application", "how do i get admission"],
-    "reply": "To apply to the University of Sargodha:\n1. Open https://admissions.su.edu.pk/\n2. Review the available degree programs and their eligibility requirements.\n3. Complete the online application and follow the portal's instructions.\n4. Pay the required application fee and upload the paid challan as instructed.\n5. Check the admission portal for merit lists and updates.\n\nFollow the current session's instructions because requirements and deadlines can vary."
+    "intent": "university_location",
+    "keywords": ["where is the university located", "where is uos", "university address", "campus location", "how to find uos"],
+    "reply": "The University of Sargodha's main campus is located on University Road, Sargodha, Punjab, Pakistan. Its postal code is 40100."
   },
   {
-    "intent": "admission_eligibility",
-    "keywords": ["eligibility criteria", "am i eligible", "minimum marks", "required percentage", "qualification required", "who can apply", "admission requirements"],
-    "reply": "Eligibility depends on the degree program you want to join. Visit https://admissions.su.edu.pk/programs to review program-specific qualifications and merit requirements. Tell me the program name, such as BS Computer Science, BS English, or BS Mathematics, so I can help explain what requirements you need to check."
+    "intent": "university_contact",
+    "keywords": ["contact number", "phone number", "university helpline", "how to contact uos", "university telephone"],
+    "reply": "The University of Sargodha's published general contact number is 048 111 867 111. You can also visit the university's main campus on University Road, Sargodha, for in-person enquiries."
+  },
+  {
+    "intent": "admission_open",
+    "keywords": ["when do admissions open", "when admissions start", "admission opening date", "when can i apply", "when does admission start"],
+    "reply": "According to UOS's published admissions FAQ, regular admissions generally open in August or September. Admissions for the Faculty of Pharmacy, Medical and Allied Health Sciences generally open in October or November. These are usual admission periods; the exact dates for a particular session are announced separately."
+  },
+  {
+    "intent": "admission_process",
+    "keywords": ["how to apply for admission", "how can i apply for admission", "admission process", "admission procedure", "how do i get admission", "apply online"],
+    "reply": "UOS regular admissions use an online application process. First, choose an advertised program and review its eligibility criteria. Then complete the admission application with your personal and academic information. Generate and pay the prescribed application-fee challan, and upload the scanned paid challan as instructed. After submission, follow the merit-list schedule. If selected, complete document verification and the remaining admission formalities within the announced deadline."
+  },
+  {
+    "intent": "admission_documents",
+    "keywords": ["documents required for admission", "admission documents", "what documents do i need", "required admission papers", "documents for applying"],
+    "reply": "For regular online admission, UOS says applicants do not need to send physical academic documents to the admission office at the initial application stage. The paid challan is uploaded to the admission portal. After selection, applicants must provide the required academic and identity documents for verification. Keep your CNIC or B-Form, previous academic result cards and certificates, photographs and applicable equivalence certificates ready. The final document checklist depends on your program and admission notice."
+  },
+  {
+    "intent": "admission_multiple",
+    "keywords": ["can i apply for multiple programs", "how many programs can i apply", "apply for two degrees", "apply for more than one program", "eight programs"],
+    "reply": "Yes. According to the UOS admissions FAQ, an applicant may apply for up to eight programs of interest, provided the applicant satisfies the eligibility requirements of the chosen programs."
+  },
+  {
+    "intent": "admission_hope",
+    "keywords": ["can i apply with hope certificate", "hope certificate admission", "admission without result", "provisional result admission", "result awaiting admission"],
+    "reply": "No. According to the published UOS regular-admission FAQ, applicants must have an official result card before the admission deadline. A hope certificate or result-awaiting status alone is not sufficient for online application under that stated rule."
+  },
+  {
+    "intent": "admission_merit",
+    "keywords": ["how is admission merit calculated", "merit calculation", "aggregate calculation", "how do they calculate merit", "admission merit formula"],
+    "reply": "UOS calculates admission merit according to the requirements of each program. Academic marks and any applicable admission-test or program-specific criteria are considered under the relevant admission policy. Because formulas can differ between BS, professional and postgraduate programs, one fixed percentage formula cannot accurately represent every program."
   },
   {
     "intent": "merit_list",
-    "keywords": ["merit list", "check my merit", "merit position", "admission result", "selected candidates", "selection list"],
-    "reply": "University of Sargodha merit lists are published according to the admission schedule. Check the official merit portal at https://admissions.su.edu.pk/merits. Select your program and relevant merit list to check your status."
+    "keywords": ["how to check merit list", "when will merit list come", "merit list", "how to know i am selected", "admission selection result"],
+    "reply": "UOS publishes the merit lists of successful applicants according to the admission schedule. Applicants should find the merit list for their selected department and program, check their application details or merit position, and complete the required fee payment and document verification if selected. Being selected does not remove the obligation to meet the announced reporting and fee deadlines."
   },
   {
-    "intent": "multiple_programs",
-    "keywords": ["multiple programs", "more than one program", "apply for two programs", "apply for several programs"],
-    "reply": "Yes. According to the University of Sargodha FAQ, applicants can apply for up to 8 programs of interest. Check the current admission portal for the applicable instructions and program eligibility: https://admissions.su.edu.pk/"
+    "intent": "admission_test",
+    "keywords": ["is admission test required", "does uos conduct entry test", "which programs need admission test", "entry test", "admission test"],
+    "reply": "UOS's published FAQ states that admission tests are conducted for MS, MPhil and PhD programs, ADCP, the MSc Physical Education fitness assessment, and drawing tests for relevant Institute of Art and Design BS programs. Requirements can differ between programs and admission sessions."
+  },
+  {
+    "intent": "admission_age",
+    "keywords": ["age limit for admission", "maximum age for bs", "admission age requirement", "how old can i be to apply", "bs age limit"],
+    "reply": "The UOS admissions FAQ lists an age limit of 24 years for BS programs and 26 years for MA/MSc programs. It also lists exemptions, including MPhil/PhD, BEd, MBA Executive and certain other categories. Age-limit requirements and exemptions should be assessed under the regulations for the admission session concerned."
+  },
+  {
+    "intent": "admission_olevel",
+    "keywords": ["o level admission", "a level admission", "ibcc equivalence", "foreign qualification admission", "alevel students"],
+    "reply": "Applicants with O-Level, A-Level or certain foreign qualifications are required to provide an equivalence certificate from the Inter Board Committee of Chairmen (IBCC). UOS's published FAQ allows provisional admission subject to submitting the required equivalence certificate before the first semester or first annual examination, as applicable."
   },
   {
     "intent": "fee_structure",
-    "keywords": ["fee structure", "semester fee", "tuition fee", "university fees", "how much is the fee", "fee per semester", "bs fee", "program fee", "regular program fee", "self support fee"],
-    "reply": "UOS fees depend on your degree program and admission category, such as regular or self-support. You can view the official fee structure here: https://su.edu.pk/home/Prospectus/FeeStructure. Tell me your degree program, semester, and admission category if you need help identifying the relevant fee."
+    "keywords": ["what is the fee structure", "how much is semester fee", "bs fee structure", "tuition fees", "university fee structure", "semester fee", "how much are university fees"],
+    "reply": "UOS does not have one fixed semester fee for every student. The payable amount depends on the degree program, regular or self-support category, academic session and applicable university charges. The exact rupee amount cannot be correctly determined without the program and current fee schedule. An applicant must use the approved fee schedule or issued challan for the relevant program rather than assuming that another department's fee is the same."
   },
   {
-    "intent": "fee_challan",
-    "keywords": ["fee challan", "download challan", "generate challan", "challan not working", "lost challan", "payment challan", "how to pay fee"],
-    "reply": "For a student admission or semester fee challan, follow the instructions in the relevant UOS student portal. For general university fee challans, visit https://www.uos.edu.pk/challan/general. If the challan system gives you trouble, the university's general challan page lists contact number 048-9230811-15, extension 7428."
+    "intent": "fee_payment",
+    "keywords": ["how to pay university fee", "how do i pay fees", "fee payment procedure", "pay fee challan", "where to submit challan", "how to pay semester fee"],
+    "reply": "To pay a UOS fee, first obtain the challan issued for your admission or student account. Check your name, program, fee amount and due date. Deposit the payment using the bank or payment method printed on the challan. Keep the paid receipt and upload or submit its proof wherever your admission or department instructions require. Do not use an old challan for a new semester without confirmation."
   },
   {
     "intent": "fee_refund",
-    "keywords": ["fee refund", "refund policy", "get my fee back", "admission fee refund", "cancel admission", "refund my fees"],
-    "reply": "The University of Sargodha FAQ describes these admission fee refund periods for semester/trimester programs: a full refund up to the 7th day after classes commence, a 50% refund from the 8th through 15th day, and no refund from the 16th day onward. Annual-system refund periods differ. Contact the university's fee section to confirm how the policy applies to your case."
+    "keywords": ["can i get fee refund", "fee refund policy", "refund my admission fee", "how much fee is refundable", "cancel admission refund", "refund after admission"],
+    "reply": "Under the refund schedule published in the UOS FAQ, semester or trimester students qualify for a 100% refund up to the 7th day after classes commence, 50% from day 8 through day 15, and no refund from day 16 onward. For annual-system students, the published schedule is 100% up to day 15, 50% from day 16 through day 30, and no refund from day 31 onward. The rules and the nature of the charges must be checked before claiming a refund."
   },
   {
-    "intent": "scholarship",
-    "keywords": ["scholarship", "financial aid", "financial assistance", "need based scholarship", "merit scholarship", "scholarship application", "fee concession"],
-    "reply": "The University of Sargodha provides scholarship information through its official scholarship page: https://su.edu.pk/scholarships. Check the available schemes, eligibility conditions, required documents, and application deadlines. Eligibility depends on the particular scholarship."
+    "intent": "fee_transfer",
+    "keywords": ["can i transfer my admission fee", "transfer fee between programs", "fee transferred to another program", "change program fee"],
+    "reply": "According to the UOS admissions FAQ, admission fees may be transferred from one program to another within the time schedule of the first three merit lists of regular and self-support admissions. Students must comply with the applicable admission and fee-transfer procedure within that period."
+  },
+  {
+    "intent": "scholarships",
+    "keywords": ["are scholarships available", "what scholarships are offered", "scholarship opportunities", "financial aid", "need based scholarship", "merit scholarship", "fee concession"],
+    "reply": "UOS provides information and opportunities relating to scholarships and financial assistance for eligible students. The availability of individual scholarships depends on the sponsoring scheme, eligibility requirements, financial circumstances, academic record and application period. Students may be asked for academic records, identity information and financial documents. Scholarship approval is not automatic simply because a student has received admission."
   },
   {
     "intent": "hostel_application",
-    "keywords": ["how to apply for hostel", "hostel application procedure", "hostel admission process", "hostel admission", "hostel application", "hostel allotment", "get a hostel room"],
-    "reply": "According to UOS hostel regulations, a hostel application must be completed and submitted to the admission office with the recommendation of the chairperson of your department. Hostel allotment is based on merit and eligibility, so it is not guaranteed. Read the official rules here: https://www.uos.edu.pk/public/office/hall-council/rules-regulations."
+    "keywords": ["how to apply for hostel", "hostel admission process", "how to get hostel room", "hostel registration", "hostel application procedure", "how can i join hostel"],
+    "reply": "To apply for a UOS hostel, complete the hostel admission application and obtain a recommendation from the chairperson of your department. Submit the recommended form to the relevant admission office. Hostel administration considers merit and eligibility before approving allotment. Under the published hostel rules, an approved applicant must deposit the prescribed hostel fee within seven days using the specified voucher at HBL's UOS branch. Failure to pay in time may result in cancellation."
   },
   {
     "intent": "hostel_facilities",
-    "keywords": ["hostel facilities", "boys hostel", "girls hostel", "female hostel", "male hostel", "hostel accommodation", "hostel rooms", "hostel names"],
-    "reply": "The University of Sargodha provides separate hostel facilities for male and female students. The official hostel directory lists facilities including Amna Hall, Ayesha Hall, Fatima Hall, Khadija Hall and Haleema Sadia Hall for female students, and Quaid-e-Azam Hall and Iqbal Hall for male students at the main campus. See https://uos.edu.pk/office/hall-council/hostels for the official directory."
+    "keywords": ["what facilities are in hostel", "hostel facilities", "hostel services", "facilities in university hostel", "is hostel furnished"],
+    "reply": "UOS describes hostel facilities that include furnished rooms, dining and mess services, laundry, canteens, common or reading rooms, visitor areas, internet and computer facilities, generators, geysers, water coolers, sports facilities, medical support, ambulance services and security arrangements. The availability and operation of individual facilities may differ between hostels."
+  },
+  {
+    "intent": "hostel_security",
+    "keywords": ["are hostels safe", "hostel security", "hostel guards", "hostel cctv", "is hostel secure"],
+    "reply": "The UOS Hall Council describes hostel security arrangements including security guards, boundary walls and CCTV surveillance. Hostel residents must also follow attendance, visitor and accommodation rules to support campus safety."
+  },
+  {
+    "intent": "hostel_attendance",
+    "keywords": ["hostel attendance time", "hostel curfew", "hostel night attendance", "hostel closing time", "what time should hostel students return"],
+    "reply": "The published UOS hostel rules specify daily boarder attendance between 9:30 PM and 10:30 PM, during which boarders are required to be present in their rooms. Residents must also follow any updated instructions issued by their hostel administration."
   },
   {
     "intent": "hostel_fee",
-    "keywords": ["hostel fee", "hostel fees", "hostel charges", "hostel rent", "hostel dues", "hostel mess fee", "room charges"],
-    "reply": "Hostel charges can depend on the applicable accommodation and fee schedule. I don't have a verified current hostel fee amount in this chatbot's knowledge base. Contact UOS Hall Council or hostel administration for the current room, mess, and other charges. Official hostel information: https://uos.edu.pk/office/hall-council/hostels."
+    "keywords": ["how much is hostel fee", "hostel fee", "hostel rent", "hostel charges", "hostel room price", "mess charges", "hostel dues"],
+    "reply": "Hostel residents must pay the prescribed accommodation charges after allotment approval. The published hostel regulations require payment within seven days of approval. An exact current hostel fee cannot be stated reliably here because charges may change with the hostel and academic session. The allotment voucher is the authoritative statement of the amount owed by the resident."
   },
   {
-    "intent": "library_services",
-    "keywords": ["library services", "library card", "borrow books", "issue a book", "return books", "renew a book", "digital library", "online journals", "library membership"],
-    "reply": "The University of Sargodha library provides access to books, journals, online databases and digital resources. For library membership, book borrowing, renewals and account-specific questions, contact the university library. Official student facilities information: https://www.uos.edu.pk/students."
+    "intent": "library_overview",
+    "keywords": ["what is the university library", "tell me about library", "library facilities", "what does library offer", "library resources"],
+    "reply": "The University of Sargodha's main library is Wazir Agha Library. UOS describes a collection of about 100,000 books, local and international journals, online full-text databases, around 25,000 digital resources, and a computer lab with 50 internet-connected computers. It also uses a library management system to organise its resources."
+  },
+  {
+    "intent": "library_borrowing",
+    "keywords": ["how can i borrow books", "library book issue", "issue a book", "return a library book", "library membership", "library card"],
+    "reply": "Library book borrowing is managed through library membership and circulation procedures. A student should register or verify their borrowing eligibility, select the required book, have it issued through the library circulation desk and return it by the assigned due date. Borrowing limits, renewal permissions and overdue charges depend on the library's current circulation rules and are not the same for every borrower category."
   },
   {
     "intent": "library_timing",
-    "keywords": ["library opening hours", "library closing time", "library opening time", "when does the library open", "when does the library close", "library schedule"],
-    "reply": "Library opening hours may vary by day, semester and holidays. I don't have a verified current library timetable in this chatbot. Please confirm the current hours with the University of Sargodha library before visiting."
+    "keywords": ["what are library timings", "when does library open", "when does library close", "library opening hours", "library schedule", "is library open on sunday"],
+    "reply": "The university library's exact operating hours can change for academic sessions, examination periods, weekends and public holidays. A current daily opening and closing timetable is not included in the verified information available to this offline chatbot, so it cannot responsibly give an exact hour or confirm Sunday opening."
   },
   {
-    "intent": "university_timing",
-    "keywords": ["university timings", "university opening hours", "university closing time", "office hours", "working hours", "class timings", "class schedule", "when does university open"],
-    "reply": "University office hours and class schedules can differ by department, program and day. Check your department's current timetable or contact the relevant office. This chatbot does not have a verified, university-wide daily timetable."
+    "intent": "university_timings",
+    "keywords": ["what are university timings", "when does university open", "university opening time", "university closing time", "class timetable", "office working hours", "university schedule"],
+    "reply": "UOS does not use one universal timetable for every class and office. Lecture schedules vary by department, semester and program, while administrative offices may follow separate hours. Students receive class schedules from their department. This knowledge base does not contain a verified current university-wide opening and closing time."
   },
   {
-    "intent": "contact",
-    "keywords": ["university contact", "contact number", "phone number", "helpline", "contact uos", "university address", "email address"],
-    "reply": "The University of Sargodha lists its general contact number as 048 111 867 111. Its address is University Road, Sargodha, Punjab, Pakistan, 40100. For a specific department, use the university's official website: https://www.uos.edu.pk/."
+    "intent": "dress_code",
+    "keywords": ["what is university dress code", "uos uniform", "uniform for boys", "uniform for girls", "undergraduate dress code", "student uniform"],
+    "reply": "The undergraduate dress code stated in the UOS FAQ is: male students wear grey trousers, a black belt, a white full-sleeved collared shirt and black shoes. Female students wear white shalwar kameez with a white dupatta featuring the appropriate faculty-coloured border, along with black shoes."
+  },
+  {
+    "intent": "student_card",
+    "keywords": ["how to get student id card", "university id card", "student identity card", "lost student card", "student card application"],
+    "reply": "According to the UOS FAQ, students should contact the supporting office of their respective department to obtain their student ID card. The department can confirm the required information and procedure for new or replacement cards."
+  },
+  {
+    "intent": "semester_freeze",
+    "keywords": ["how to freeze semester", "semester freeze", "pause my studies", "freeze studies", "semester break request"],
+    "reply": "UOS allows a student to request a semester freeze before final-term examinations on medical grounds or circumstances beyond their control, subject to written permission from the concerned department chairperson, principal or director. The published FAQ states that the semester fee is not transferred or refunded because of the freeze, and student bonafide status is suspended during the freeze."
+  },
+  {
+    "intent": "course_withdrawal",
+    "keywords": ["how to withdraw course", "course withdrawal", "drop a subject", "withdraw a subject", "w grade"],
+    "reply": "According to the UOS FAQ, students may be permitted to withdraw from a course during the specified 4–6-week period of the semester. An approved withdrawal is recorded with grade W and does not affect CGPA. The student must submit the relevant application through the department chairperson."
+  },
+  {
+    "intent": "summer_semester",
+    "keywords": ["does university offer summer semester", "summer semester", "summer classes", "repeat failed course", "summer course"],
+    "reply": "UOS's published FAQ states that an optional summer semester of approximately 8–9 weeks may be offered at the end of the academic year. It is intended for students who need to remove deficiencies, repeat failed courses, improve grades or address qualifying attendance-related examination restrictions, subject to eligibility and course availability."
+  },
+  {
+    "intent": "grade_improvement",
+    "keywords": ["how to improve cgpa", "can i improve grades", "grade improvement", "repeat a passed course", "improve my marks"],
+    "reply": "UOS permits eligible students to improve grades by repeating courses offered during an appropriate regular or summer semester, within the allowed degree duration and after obtaining the relevant permission. The prescribed enrolment fee must be paid. The FAQ also states that students who improve through course repetition are not considered eligible for a position or scholarship in the relevant examination."
+  },
+  {
+    "intent": "transcript",
+    "keywords": ["how to get transcript", "apply for transcript", "official transcript", "transcript application", "academic transcript"],
+    "reply": "To request a UOS transcript, complete the required student biodata or transcript application formalities. Regular students must complete the relevant departmental clearance process. Applications may also be handled through the university Facilitation Centre with original documents. Requirements depend on whether the transcript is a first issue or a duplicate."
+  },
+  {
+    "intent": "degree_verification",
+    "keywords": ["verify my degree", "degree verification", "certificate verification", "verify transcript", "result card verification"],
+    "reply": "UOS has a degree and academic-record verification process managed through its Degree Cell. Applicants complete the prescribed application, provide their academic details, pay the required fee and submit the required hard-copy documents to the Assistant Controller, Degree Cell, Office of the Controller of Examinations, University of Sargodha. The published FAQ gives a processing period of 10 working days for verification."
+  },
+  {
+    "intent": "english_certificate",
+    "keywords": ["english proficiency certificate", "how to get epc", "medium of instruction certificate", "english language certificate"],
+    "reply": "According to the UOS FAQ, an English Proficiency Certificate can be requested from the University Facilitation Centre with original documents, or by submitting an application to the Registrar with an attested transcript copy, CNIC and paid processing-fee receipt. The FAQ lists a processing fee of Rs. 1,000 and indicates same-day issuance. Confirm the current charge when preparing the application."
+  },
+  {
+    "intent": "migration",
+    "keywords": ["how to migrate to uos", "migration from another university", "university transfer", "transfer admission to uos", "migration policy"],
+    "reply": "Migration to UOS is considered under the university's migration policy. The applicant must come from an HEC-recognised university, meet UOS eligibility and merit requirements, and submit an application with identity documents, intermediate result, previous semester transcript, photographs, processing-fee receipt and course outlines where required. Migration is not granted during an incomplete first semester or year. An NOC from the previous university may be required during further processing."
+  },
+  {
+    "intent": "exam_result",
+    "keywords": ["how to check exam result", "where is my result", "examination result", "result announcement", "result card"],
+    "reply": "UOS examination results are announced by the examination authorities for the relevant examination and session. To identify the correct result, students typically need their program or examination category, relevant session and roll number or registration details. Departmental semester results and centrally administered examinations may follow different publication procedures."
+  },
+  {
+    "intent": "paper_rechecking",
+    "keywords": ["how to apply for rechecking", "paper rechecking", "recheck exam paper", "marks rechecking", "result rechecking"],
+    "reply": "According to the UOS examination FAQ, a student may apply for paper rechecking within one month of the result declaration. The applicant must complete the prescribed rechecking form, pay the required challan and submit the documents to the Controller of Examinations or the Facilitation Centre. The published FAQ states that a final response is communicated in approximately 15 days."
+  },
+  {
+    "intent": "campus_wifi",
+    "keywords": ["does campus have wifi", "university wifi", "internet facility", "campus internet", "eduroam"],
+    "reply": "UOS describes a Smart University wireless-network project providing Wi-Fi coverage across the main campus for eligible students and staff. Its campus information also mentions Eduroam, which supports access using institutional credentials at participating educational institutions. Access and sign-in instructions are managed by the university's IT services."
+  },
+  {
+    "intent": "campus_sports",
+    "keywords": ["sports facilities", "can i play sports", "university sports", "sports at uos", "campus activities"],
+    "reply": "UOS provides sports and co-curricular opportunities for students. Campus activities include sporting events, seminars, conferences, workshops and student competitions. Participation arrangements and team selection depend on the relevant sports office, department and scheduled event."
   },
   {
     "intent": "greeting",
-    "keywords": ["hello", "hi", "salam", "assalam o alaikum", "assalamu alaikum", "good morning", "good afternoon"],
-    "reply": "Wa Alaikum Assalam! Welcome to UOS Helpdesk Bot. I can help you with admissions, fee structure, challans, scholarships, hostel applications, library services, and university timings. What would you like to know?"
+    "keywords": ["hello", "hi", "hey", "salam", "assalam o alaikum", "assalamualaikum", "good morning", "good evening"],
+    "reply": "Wa Alaikum Assalam! Welcome to UOS Helpdesk Bot. You can ask me about admissions, fee payments, scholarships, hostel accommodation, library services, examination procedures, student facilities and academic regulations. How can I help you?"
+  },
+  {
+    "intent": "thanks",
+    "keywords": ["thank you", "thanks", "shukriya", "jazakallah"],
+    "reply": "You're welcome! I'm happy I could help. Feel free to ask another question about student life or academic procedures at the University of Sargodha."
   }
 ]
